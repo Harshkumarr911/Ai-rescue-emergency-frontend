@@ -1,0 +1,96 @@
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height:100%;
+  width:100%;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #95ef85;
+}
+.card{
+  background-color: rgb(102, 212, 210);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+  color: blue;
+}
+.Loginform{
+  background-color: #f5f394;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  color: #333;
+  border-color: aqua;
+  border: 2px solid;
+}
+.Loginform input{
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.Loginform button{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Loginform button:hover{
+  background-color: #45a049;
+}
+#parent{
+  border:2px solid black;
+  padding:10px;
+  margin:10px;
+  text-align:center;
+}
+.header{
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border: solid 2px black;
+  border-radius: 15px;
+  margin: 0px 10px 20px 10px;
+}
+.header h1{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgb(209, 93, 15);
+
+}
+.header .navbar a{
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.header .navbar a:hover{
+  text-decoration: underline;
+}
+.header ul{
+  list-style-type: none;
+  padding: 0;
+}
+.header li{
+  display: inline;
+  margin: 0 10px;
+} 
