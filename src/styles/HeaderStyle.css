@@ -1,0 +1,80 @@
+/* Glass Header */
+.header-glass {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.25);
+  border-radius: 50px;
+}
+
+/* Layout */
+.header-wrapper {
+  max-width: 1300px;
+  margin: auto;
+  padding: 14px 28px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+/* Navigation */
+.nav-glass {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.nav-glass a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px 14px;
+  border-radius: 10px;
+
+  transition: all 0.3s ease;
+}
+
+.nav-glass a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: black;
+}
+
+.nav-glass a.active {
+  background: rgba(255, 255, 255, 0.35);
+  font-weight: 600;
+}
+
+/* Logout Button */
+.logout-glass {
+  background: rgba(255, 77, 79, 0.8);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 12px;
+
+  font-size: 14px;
+  cursor: pointer;
+
+  box-shadow: 0 4px 15px rgba(255, 77, 79, 0.45);
+  transition: all 0.3s ease;
+}
+
+.logout-glass:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 77, 79, 1);
+}
