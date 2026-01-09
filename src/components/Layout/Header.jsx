@@ -25,6 +25,7 @@ function Header() {
           <NavLink to="/about">About</NavLink>
           <NavLink to="/services">Services</NavLink>
           <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/gallery">Gallery</NavLink>
 
           {token && (
             <button className="logout-glass" onClick={handleLogout}>

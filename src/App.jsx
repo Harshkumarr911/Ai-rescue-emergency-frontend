@@ -13,6 +13,8 @@ import Card from "./components/common/Card.jsx";
 import PrivateRoute from "./components/common/PrivateRoute.jsx";
 import Contact from "./pages/Contact.jsx";
 import Card2 from "./components/common/Card2.jsx";
+import Tabs from "./pages/Tabs.jsx";
+
 const App = () => {
 
   const [userData, setUserData] = useState(null);
@@ -31,6 +33,8 @@ const App = () => {
           </PrivateRoute>
         }
         />
+
+        <Route path="/gallery" element={<Tabs />} />
 
 
         <Route path="/home" element={<Home />} />

@@ -1,7 +1,11 @@
+import CallAPI from "../../API Calling/CallAPI";
 import "../../styles/HomeStyle.css";
+// import CallAPI from "../../API Calling/CallAPI";
+import CallAPIaxios from "../../API Calling/CallAPIaxios";
 
 export default function Home() {
   return (
+    <> 
     <section className="hero">
       <div className="hero-left">
         <h1>
@@ -42,5 +46,9 @@ export default function Home() {
   </div>
 </div>
     </section>
+
+    <CallAPI />
+    <CallAPIaxios />
+    </>
   );
 }
